@@ -62,16 +62,21 @@
     submitBtn.disabled = true;
     showStatus('ok', t.sending);
 
-    fetch('/api/contact', {
+    fetch('https://api.web3forms.com/submit', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: name, email: email, phone: phone, message: message, lang: lang })
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        access_key: '4ed7da55-cf7e-49ed-86d3-7412c65e8c3a',
+        subject: 'New website inquiry from ' + name,
+        from_name: 'drshafrir website',
+        name: name, email: email, phone: phone, message: message, language: lang
+      })
     })
       .then(function (res) {
-        if (!res.ok) throw new Error('bad response');
         return res.json();
       })
-      .then(function () {
+      .then(function (data) {
+        if (!data || !data.success) throw new Error('bad response');
         showStatus('ok', t.ok);
         form.reset();
       })
