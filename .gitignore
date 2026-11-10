@@ -1,0 +1,6 @@
+# Local-only: backend server, voice-memo tools, internal research notes
+server/
+research/
+.DS_Store
+node_modules/
+.env

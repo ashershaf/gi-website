@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>צור קשר — ד"ר אשר שפריר</title>
+<meta name="description" content="יצירת קשר עם ד&quot;ר אשר שפריר, גסטרואנטרולוג בירושלים.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">דלג לתוכן</a>
+
+<nav class="site-nav" id="siteNav">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M2 12h4l2-7 3 14 2.5-9 1.5 4.5H22"/>
+      </svg>
+      ד"ר אשר שפריר
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">אודות</a></li>
+      <li><a href="gi-conditions.html">מחלות מערכת העיכול</a></li>
+      <li><a href="academia.html">מחקר ופרסומים</a></li>
+      <li><a href="contact.html" aria-current="page">צור קשר</a></li>
+      <li><a class="lang-switch" href="../en/contact.html">English</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="פתח תפריט">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section id="contact" style="padding-top:64px;">
+    <div class="container contact-wrap">
+      <div class="contact-copy">
+        <p class="eyebrow">יצירת קשר</p>
+        <h2>שליחת הודעה</h2>
+        <p>השאירו את פרטיכם והודעה קצרה, ואחזור אליכם. טופס זה מיועד לפניות כלליות — במקרה של פנייה רפואית דחופה, אנא פנו למרפאה שלכם או לשירותי החירום ישירות.</p>
+        <ul class="contact-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7.5-4.7-10-9.2C.6 8.4 2.3 5 5.6 5c1.9 0 3.3 1 4.4 2.6C11.1 6 12.5 5 14.4 5c3.3 0 5 3.4 3.6 6.8C15.5 16.3 12 21 12 21Z"/></svg>
+            פועל מירושלים, ישראל.
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            כל הודעה נבדקת וזוכה למענה אישי.
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5.5C6 4.5 9 4.5 12 6c3-1.5 6-1.5 8-.5v13c-2-1-5-1-8 .5-3-1.5-6-1.5-8-.5v-13Z"/></svg>
+            המידע שלכם נשמר בפרטיות ומשמש אך ורק למענה על פנייתכם.
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <input class="hp-field" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="field">
+          <label for="name">שם מלא</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">כתובת אימייל <span class="hint">כדי שנוכל לחזור אליכם</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="phone">טלפון <span class="hint">אופציונלי</span></label>
+          <input type="text" id="phone" name="phone" autocomplete="tel">
+        </div>
+
+        <div class="field">
+          <label for="message">הודעה</label>
+          <textarea id="message" name="message" placeholder="ספרו לנו קצת על השאלה שלכם או מה תרצו לדון בו." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-solid" style="width:100%; justify-content:center;">
+          שליחת הודעה
+        </button>
+        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+        <p class="form-note">שליחת טופס זה מעבירה את פרטיכם באופן מאובטח למרפאה; דבר אינו נשלח מחשבון האימייל שלכם.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M2 12h4l2-7 3 14 2.5-9 1.5 4.5H22"/>
+      </svg>
+      ד"ר אשר שפריר
+    </div>
+    <p class="tagline">גסטרואנטרולוגיה ומחלות מעי דלקתיות &middot; ירושלים</p>
+    <p class="fine">אתר זה מספק מידע כללי ואינו מחליף ייעוץ רפואי אישי. &copy; 2026.</p>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

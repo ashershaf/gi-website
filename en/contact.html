@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Dr. Asher Shafrir</title>
+<meta name="description" content="Get in touch with Dr. Asher Shafrir, gastroenterologist in Jerusalem.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<nav class="site-nav" id="siteNav">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M2 12h4l2-7 3 14 2.5-9 1.5 4.5H22"/>
+      </svg>
+      Dr. Asher Shafrir
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="gi-conditions.html">GI Conditions</a></li>
+      <li><a href="academia.html">Academia &amp; Research</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+      <li><a class="lang-switch" href="../he/contact.html">עברית</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section id="contact" style="padding-top:64px;">
+    <div class="container contact-wrap">
+      <div class="contact-copy">
+        <p class="eyebrow">Get in Touch</p>
+        <h2>Send a message</h2>
+        <p>Leave your details and a short message, and I'll get back to you. This form is for general inquiries — for urgent medical concerns, please contact your clinic or emergency services directly.</p>
+        <ul class="contact-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7.5-4.7-10-9.2C.6 8.4 2.3 5 5.6 5c1.9 0 3.3 1 4.4 2.6C11.1 6 12.5 5 14.4 5c3.3 0 5 3.4 3.6 6.8C15.5 16.3 12 21 12 21Z"/></svg>
+            Based in Jerusalem, Israel.
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            Messages are reviewed and followed up on personally.
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5.5C6 4.5 9 4.5 12 6c3-1.5 6-1.5 8-.5v13c-2-1-5-1-8 .5-3-1.5-6-1.5-8-.5v-13Z"/></svg>
+            Your information is kept private and used only to respond to your inquiry.
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <input class="hp-field" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="field">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Your email <span class="hint">so we can follow up</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone <span class="hint">optional</span></label>
+          <input type="text" id="phone" name="phone" autocomplete="tel">
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us a bit about your question or what you'd like to discuss." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-solid" style="width:100%; justify-content:center;">
+          Send message
+        </button>
+        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+        <p class="form-note">Submitting this form sends your details securely to our office; nothing is sent from your own email account.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M2 12h4l2-7 3 14 2.5-9 1.5 4.5H22"/>
+      </svg>
+      Dr. Asher Shafrir
+    </div>
+    <p class="tagline">Gastroenterology &amp; Inflammatory Bowel Disease &middot; Jerusalem</p>
+    <p class="fine">This site provides general information and does not replace individualized medical advice. &copy; 2026.</p>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
