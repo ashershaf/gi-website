@@ -39,14 +39,13 @@
 
 <main id="main">
 
-  <header class="hero">
+  <header class="hero hero-home">
     <div class="container">
       <div>
         <p class="hero-eyebrow">Gastroenterology &middot; Jerusalem</p>
         <h1>Asher Shafrir, M.D.</h1>
         <p class="hero-role">Senior Gastroenterologist &middot; Hadassah &amp; Meuhedet</p>
         <p class="hero-sub">I am a senior physician in the Gastroenterology Department at Hadassah–Hebrew University Medical Center and at Meuhedet Health Services. I trained in internal medicine and gastroenterology at Hadassah, followed by an advanced fellowship in inflammatory bowel disease at the University of Chicago. My clinical and research focus is IBD, liver disease, and evidence-based digestive care.</p>
-        <p class="hero-sub">I believe gastroenterology is a place where mind and body come together: physical symptoms can cause stress, and stress can cause physical symptoms. In a careful, attentive conversation, we can begin to understand how to treat both parts of the problem.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="contact.html">Get in touch</a>
           <a class="btn btn-ghost" href="gi-conditions.html">Learn about GI conditions</a>
@@ -58,14 +57,26 @@
     </div>
   </header>
 
-  <section id="bio">
-    <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">Background</p>
-        <h2>Training &amp; Experience</h2>
-      </div>
+  <section class="stats"><div class="container"><div class="stat reveal d0"><span class="stat-num" data-count="27">27</span><span class="stat-label">published studies</span></div><div class="stat reveal d1"><span class="stat-num" data-count="2">2</span><span class="stat-label">clinical homes: Hadassah &amp; Meuhedet</span></div><div class="stat reveal d2"><span class="stat-num" data-count="1">1</span><span class="stat-label">IBD fellowship at the University of Chicago</span></div></div></section>
 
-      <p class="lede">I completed my M.D. at the Hebrew University–Hadassah Medical School in Jerusalem (2006–2014), then trained as an intern at Shaare Zedek Medical Center, where I was recognized as Outstanding Intern in 2013. From 2014 to 2018 I completed my residency in internal medicine at Hadassah Mt. Scopus Hospital, serving as Chief Resident in my final year. After several years as a primary care physician with Meuhedet Health Services, I completed a fellowship in gastroenterology at Hadassah–Hebrew University Hospital (2020–2023), then served as a Senior Physician in the Department of Gastroenterology there and as a Gastroenterology Consultant with Meuhedet. I then spent time as an Advanced IBD Fellow at the Inflammatory Bowel Disease Center at the University of Chicago, working under Prof. David T. Rubin on advanced and combination therapy for medically complex inflammatory bowel disease. Today I am a senior physician in the gastroenterology department at Hadassah and at Meuhedet.</p>
+  <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Inflammatory bowel disease</span><span>Liver disease</span><span>Endoscopy</span><span>H. pylori</span><span>Colorectal cancer risk</span><span>Evidence-based care</span><span>Inflammatory bowel disease</span><span>Liver disease</span><span>Endoscopy</span><span>H. pylori</span><span>Colorectal cancer risk</span><span>Evidence-based care</span><span>Inflammatory bowel disease</span><span>Liver disease</span><span>Endoscopy</span><span>H. pylori</span><span>Colorectal cancer risk</span><span>Evidence-based care</span><span>Inflammatory bowel disease</span><span>Liver disease</span><span>Endoscopy</span><span>H. pylori</span><span>Colorectal cancer risk</span><span>Evidence-based care</span></div></div>
+
+  <section class="pullquote">
+    <div class="container reveal">
+      <blockquote><p>Gastroenterology is a place where mind and body come together: physical symptoms can cause stress, and stress can cause physical symptoms. In a careful, attentive conversation, we can begin to understand how to treat both.</p><cite>— Dr. Asher Shafrir</cite></blockquote>
+    </div>
+  </section>
+
+  <section id="bio" style="background:var(--bg-deep);">
+    <div class="container bio-split">
+      <figure class="bio-photo reveal"><img src="../assets/images/standing.jpg" alt="Dr. Asher Shafrir in a dark blazer, standing outdoors among palm trees" loading="lazy" width="924" height="1155"></figure>
+      <div>
+      <div class="section-head reveal">
+        <p class="eyebrow">Background</p>
+        <h2>Training &amp; experience</h2>
+      </div>
+      <ol class="career"><li class="reveal"><span class="yr">2006–2014</span><div><h3>M.D., Hebrew University–Hadassah Medical School</h3><p>Jerusalem.</p></div></li><li class="reveal"><span class="yr">2013</span><div><h3>Outstanding Intern</h3><p>Shaare Zedek Medical Center.</p></div></li><li class="reveal"><span class="yr">2014–2018</span><div><h3>Internal medicine residency</h3><p>Hadassah Mt. Scopus Hospital, serving as Chief Resident in the final year.</p></div></li><li class="reveal"><span class="yr">Then</span><div><h3>Primary care physician</h3><p>Meuhedet Health Services.</p></div></li><li class="reveal"><span class="yr">2020–2023</span><div><h3>Gastroenterology fellowship</h3><p>Hadassah–Hebrew University, followed by work as a senior physician there and a gastroenterology consultant with Meuhedet.</p></div></li><li class="reveal"><span class="yr">Fellowship</span><div><h3>Advanced IBD fellow, University of Chicago</h3><p>Inflammatory Bowel Disease Center, under Prof. David T. Rubin, on advanced and combination therapy for medically complex IBD.</p></div></li><li class="reveal"><span class="yr">Today</span><div><h3>Senior gastroenterologist</h3><p>Hadassah and Meuhedet.</p></div></li></ol>
+      </div>
     </div>
   </section>
 
@@ -88,7 +99,7 @@
     </div>
   </section>
 
-  <section id="more" style="background:var(--bg-deep);">
+  <section id="more">
     <div class="container">
       <div class="section-head">
         <p class="eyebrow">Beyond the Clinic</p>
@@ -141,6 +152,12 @@
         <a class="btn btn-ghost" style="color:var(--teal-900); border-color:var(--line);" href="blog.html">Read the blog</a>
         <a class="btn btn-ghost" style="color:var(--teal-900); border-color:var(--line);" href="contact.html">Contact</a>
       </div>
+    </div>
+  </section>
+
+  <section class="reviews-widget">
+    <div class="container">
+      <iframe style="z-index: 2;" frameBorder="0" height="100px" width="200px" allowfullscreen title="Patient reviews on MedReviews" src="https://www.medreviews.co.il/provider/dr-shafrir-asher/rating-widget-new"></iframe>
     </div>
   </section>
 
